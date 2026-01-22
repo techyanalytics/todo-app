@@ -29,7 +29,7 @@ form.addEventListener("submit",function(){
   const title=titleinput.value
   const amount=amountinput.value
   
-  if (title===""||amount===""){
+  if (title===""||amount===""||category.value===""){
     alert("please fill the form")
     return;
   }
